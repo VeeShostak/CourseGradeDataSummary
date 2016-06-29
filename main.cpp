@@ -83,7 +83,7 @@ struct Course
 	string DR;  // designation requirement
 };
 
-// Function Definitions
+// Function Prototypes
 void insertionSort(vector<Student> &students);
 int CheckIdinVector(string emplID, vector<Student> &students); // look in student vector for student ID
 void addFirstIdandClass(vector<Student> &students, Student &tempEachStudent, string emplID, string subjectCode, string catalogCode, string letterGrade, int semesterCode, double numericGrade);
